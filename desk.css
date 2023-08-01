@@ -1,0 +1,71 @@
+#abc{
+	background-color: blanchedalmond;
+	color: red;
+}
+.a123{
+	font-size: 100px;
+	background-color: yellow;
+	color: red;
+}
+.vbbv{
+	font-size: 80px;
+	background-color: green;
+	color: white;
+	width: 800px;
+
+}
+p{
+	color: blue;
+	font-size: 50px;
+}
+p,span{
+	color: green;
+	font-size: 50px;
+}
+div{
+	height: 300px;
+	width: 200px;
+}
+*{
+	font-family: cursive;
+	margin: 0px;
+	padding: 0px;
+}
+h3{
+	color: pink;
+}
+input[type="text"]{
+	color: violet;
+}
+input[type="number"]{
+	color: blue;
+}
+input[type="password"]{
+	color: green;
+}
+input[type="email"]{
+	color: red;
+}
+a[href]{
+	color: palegreen;
+}
+img{
+	border: dotted;
+}
+a:link{
+	color: green;
+}
+a:hover{
+	color: red;
+}
+a:visited{
+	color: orange;
+}
+a:active{
+	color: yellow
+}
+div:hover{
+	background-color: red;
+	height: 5000px;
+	width: 500px;
+}

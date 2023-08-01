@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EPAM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main pd1">
+        <div class="logo d-flex jus ali pd">
+            <img src="images.png",width="200px" >
+        </div>
+        <div id="home">
+            <h1>HTML ELEMENT</h1>
+            <ul class="d-flex ul">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#headers">Header</a></li>
+                <li><a href="#table">Table</a></li>
+                <li><a href="#list">List</a></li>
+                <li><a href="#textformat">TextFormat</a></li>
+                <li><a href="#blockquote">Blockquote</a></li>
+            </ul>
+            <hr>
+            <p class="para">Pay attention to h1 tag inside the section element.Font-size for h1 is same as font-size for h2,because we have to use only one h1 on the page and it is commonly inside header</p>
+        </div>
+        <div id="headers">
+            <h1>Heading 1</h1><br>
+            <h2>Heading 2</h2><br>
+            <h3>Heading 3</h3><br>
+            <h4>Heading 4</h4><br>
+            <h5>Heading 5</h5><br>
+            <h6>Heading 6</h6>
+        </div>
+        <hr>
+        <p class="mt pd">Lorem ipsum dolor sit <a href="#">amet</a> consectetur adipisicing elit. Dignissimos neque a voluptatum cum corrupti soluta eos <strong>This is strong</strong>, explicabo amet pariatur ratione necessitatibus <em>emphaszied</em> obcaecati ipsa rem sit culpa veritatis? Ipsum ex earum <i>italian</i> Sed soluta doloremque <u>underline</u> dicta omnis dolores.<br><br>Html and css are our tools. Lorem ipsum dolor sit amet consectetur adipisicing elit. <span style="text-decoration: line-through;">Praesentium</span> at atque reiciendis, voluptas dolore ab! Earum, laboriosam. Nesciunt, accusamus nostrum. <span style="background-color: yellow;">Lets make that</span>, obcaecati autem laudantium a explicabo delectus necessitatibus eius?</p>
+        <hr>
+        <div id="table">
+            <h1 class="mt">Table</h1>
+            <table border="" cellpadding="20px" cellspacing="0" class="mt" width="100%">
+                <thead>
+                    <tr>
+                        <th>Header</th>
+                        <th>Header</th>
+                        <th>Header</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>lorem</td>
+                        <td>lorem</td>
+                        <td>lorem</td>
+                    </tr>
+                    <tr>
+                        <td>sdad</td>
+                        <td>cavb</td>
+                        <td>sunny</td>
+                    </tr>
+                    <tr>
+                        <td>asdasd</td>
+                        <td>vamsi</td>
+                        <td>laptop</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div id="list" class="mt">
+            <h1>Unordered List</h1>
+            <ul class="mt pd1">
+                <li>List item1</li>
+                <li>list item2
+                    <ul>
+                        <li>some nested list item 1</li>
+                    </ul>
+                </li>
+                <li>List item 3</li>
+            </ul>
+            <h1 class="mt">Ordered List</h1>
+            <ol class="mt pd1">
+                <li>List item1</li>
+                <li>list item2
+                    <ol type="A">
+                        <li>some nested list item 1</li>
+                    </ol>
+                </li>
+                <li>List item 3</li>
+            </ol>
+            <h1 class="mt">Definition List</h1>
+            <dl class="mt pd1">
+                <dt><b>defines 1</b></dt>
+                <dd>description 1</dd>
+                <dt class="mt"><b>defines 2</b></dt>
+                <dd>description 2</dd>
+            </dl>
+            <h5 class="mt">Details</h5>
+            <select>
+                <option>HTML</option>
+                <option>CSS</option>
+                <option>JS</option>
+            </select>
+        </div>
+        <div id="textformat" class="mt">
+            <h1>Text Formats</h1>
+            <article class="mt">
+                <h4>Article text</h4>
+                <h5>Article title</h5>
+                <h6>Article description</h6>
+            </article>
+            <h2 class="mt">Preformated text</h2>
+            <center>
+                <pre>
+                    text is an pre element<br>is displayed in fixed-wdth font and <br>preserbes both<br>spaces and<br>line breaks
+                </pre>
+            </center>
+            <h3 class="mt">Code</h3>
+            <center>
+                <code>
+                    body{<br>
+                        display: flex;<br>
+                        justify-content: center;<br>
+                        background-color: lightgrey;<br>
+                    }
+                </code>
+            </center>
+            <div id="blockquote">
+                <h3 class="mt">Blockquote</h3>
+                <blockquote class="mt">"<i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro est accusamus, sunt neque, repellat quod iusto temporibus commodi non veniam sint praesentium magni maxime animi cumque veritatis debitis omnis ipsa placeat eum dolores autem. Iusto quo, itaque commodi rerum similique excepturi nesciunt earum ipsum? Amet excepturi eius quo quibusdam alias.</i>"</blockquote>
+            </div>
+            <hr>
+        </div>
+        <form class="mt" align="right">
+            <label>FirstName</label>
+            <input type="text"><br>
+            <label>Surname</label>
+            <input type="text"><br>
+            <label>Email</label>
+            <input type="email"><br>
+            <textarea></textarea><br>
+            <button>Submit</button>
+        </form>
+        
+        <div class="footer">
+            <h3>Copyright Epam</h3>
+        </div>
+        
+    </div>
+</body>
+</html>

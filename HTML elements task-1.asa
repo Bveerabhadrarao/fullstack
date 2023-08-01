@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTML Elements</title>
+
+</head>
+<body>
+	<div class="logo">
+		<cente>
+	<img alt="images" src="images/epam">
+		</cente>
+	</div>
+	<br><br><br>
+	<h1>HTML Elements</h1>
+<div class="border">
+	<a href="Home"></a>
+	<a href="Header"></a>
+	<a href="Table"></a>
+	<a href="List"></a>
+	<a href="Textformats"></a>
+	<a href="Blockquotes"></a>
+</div>
+<p>pay attention to h1 tag inside elements.font-size for h1 is as same as font-size for h2,because we use on only one 1 on the page,and it is commonly used inside header </p>
+
+<h2>Header 2</h2>
+<h3>Header 3</h3>
+<h4>Header 4</h4>
+<h5>Header 5</h5>
+<h6>Header 6</h6>
+</body>
+</html>
